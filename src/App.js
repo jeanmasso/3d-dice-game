@@ -1,9 +1,8 @@
-import Dice3D from "./components/dice3d";
+import Dice3D from "./components/Dice3D";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World !</h1>
       <Dice3D />  
     </div>
   );
