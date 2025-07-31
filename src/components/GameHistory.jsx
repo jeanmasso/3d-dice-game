@@ -10,17 +10,10 @@ const GameHistory = ({ history, onClearHistory }) => {
       <p style={{ 
         color: colors.text.muted, 
         fontStyle: 'italic',
-        fontSize: '1.1rem',
+        fontSize: '0.9rem',
         margin: 0
       }}>
-        🎯 Aucun lancer pour le moment
-      </p>
-      <p style={{ 
-        color: colors.text.light, 
-        fontSize: '0.9rem',
-        margin: '0.5rem 0 0 0'
-      }}>
-        Lancez le dé pour commencer !
+        🎯 Aucun lancer
       </p>
     </div>
   );

@@ -26,16 +26,19 @@ export const containers = {
   main: {
     minHeight: '100vh',
     background: colors.primary.gradient,
-    padding: '2rem',
-    fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif'
+    padding: '1rem',
+    fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   
   card: {
-    maxWidth: '800px',
+    maxWidth: '700px',
     margin: '0 auto',
     background: 'rgba(255, 255, 255, 0.95)',
-    borderRadius: '20px',
-    padding: '3rem',
+    borderRadius: '15px',
+    padding: '1.5rem',
     boxShadow: shadows.card,
     backdropFilter: 'blur(10px)',
     textAlign: 'center'
@@ -45,31 +48,31 @@ export const containers = {
 // Styles pour la typography
 export const typography = {
   title: {
-    fontSize: '3rem',
+    fontSize: '2rem',
     background: colors.button.primary,
     backgroundClip: 'text',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
-    marginBottom: '2rem',
+    marginBottom: '1rem',
     fontWeight: '700',
     textShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
   },
   
   sectionTitle: {
     margin: 0,
-    fontSize: '1.6rem',
+    fontSize: '1.2rem',
     fontWeight: '600'
   },
   
   currentValue: {
-    fontSize: '1.8rem',
-    marginBottom: '0.5rem',
+    fontSize: '1.4rem',
+    marginBottom: '0.3rem',
     fontWeight: '600'
   },
   
   description: {
-    fontSize: '1rem',
-    margin: '0.5rem 0 0 0',
+    fontSize: '0.9rem',
+    margin: '0.3rem 0 0 0',
     fontStyle: 'italic'
   }
 };
@@ -78,25 +81,25 @@ export const typography = {
 export const sections = {
   canvas: {
     background: colors.sections.canvas,
-    borderRadius: '15px',
-    padding: '2rem',
-    marginBottom: '2rem',
+    borderRadius: '10px',
+    padding: '1rem',
+    marginBottom: '1rem',
     boxShadow: shadows.inset
   },
   
   currentValue: {
-    margin: '2rem 0',
+    margin: '1rem 0',
     background: colors.sections.currentValue,
-    padding: '1.5rem',
-    borderRadius: '15px',
+    padding: '1rem',
+    borderRadius: '10px',
     boxShadow: shadows.section
   },
   
   history: {
-    margin: '2rem 0',
+    margin: '1rem 0',
     background: colors.sections.history,
-    padding: '2rem',
-    borderRadius: '15px',
+    padding: '1rem',
+    borderRadius: '10px',
     boxShadow: shadows.section
   }
 };
@@ -104,10 +107,10 @@ export const sections = {
 // Styles pour les boutons
 export const buttons = {
   primary: {
-    padding: '1.2rem 2.5rem',
-    fontSize: '1.1rem',
+    padding: '0.8rem 1.8rem',
+    fontSize: '1rem',
     fontWeight: '600',
-    marginBottom: '2rem',
+    marginBottom: '1rem',
     color: 'white',
     border: 'none',
     borderRadius: '50px',
@@ -117,7 +120,7 @@ export const buttons = {
   },
   
   danger: {
-    padding: '0.7rem 1.5rem',
+    padding: '0.5rem 1rem',
     fontSize: '0.9rem',
     fontWeight: '600',
     background: colors.button.danger,
@@ -139,24 +142,24 @@ export const historyStyles = {
     justifyContent: 'center',
     alignItems: 'center',
     gap: '1rem',
-    marginBottom: '1.5rem',
+    marginBottom: '1rem',
     flexWrap: 'wrap'
   },
   
   emptyState: {
     textAlign: 'center',
-    padding: '2rem',
+    padding: '1rem',
     background: colors.sections.emptyState,
-    borderRadius: '10px',
+    borderRadius: '8px',
     border: `2px dashed ${colors.borders.dashed}`
   },
   
   container: {
-    maxHeight: '300px',
+    maxHeight: '150px',
     overflowY: 'auto',
     background: 'rgba(255, 255, 255, 0.7)',
-    borderRadius: '10px',
-    padding: '1rem'
+    borderRadius: '8px',
+    padding: '0.5rem'
   },
   
   grid: {
@@ -164,14 +167,14 @@ export const historyStyles = {
     padding: 0,
     margin: 0,
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
-    gap: '0.8rem'
+    gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
+    gap: '0.5rem'
   },
   
   item: {
     background: colors.sections.historyItem,
-    padding: '1rem',
-    borderRadius: '10px',
+    padding: '0.5rem',
+    borderRadius: '8px',
     boxShadow: shadows.historyItem.normal,
     textAlign: 'center',
     transition: 'transform 0.2s ease',

@@ -25,19 +25,19 @@ const HistoryItem = ({ value, rollNumber }) => {
       onMouseLeave={handleMouseLeave}
     >
       <div style={{
-        fontSize: '1.3rem',
+        fontSize: '1rem',
         fontWeight: '700',
         color: colors.text.historyItem,
-        marginBottom: '0.3rem'
+        marginBottom: '0.2rem'
       }}>
         🎲 {value}
       </div>
       <div style={{
-        fontSize: '0.8rem',
+        fontSize: '0.7rem',
         color: colors.text.historyItemSecondary,
         fontWeight: '500'
       }}>
-        Lancer #{rollNumber}
+        #{rollNumber}
       </div>
     </li>
   );

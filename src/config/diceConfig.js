@@ -41,7 +41,7 @@ export const LIGHTING_CONFIG = {
 // Configuration du Canvas 3D
 export const CANVAS_CONFIG = {
   style: {
-    height: '400px',
+    height: '250px',
     borderRadius: '10px',
     boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)'
   }
